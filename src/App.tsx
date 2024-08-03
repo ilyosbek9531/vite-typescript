@@ -1,7 +1,6 @@
 import { useState } from 'react';
-import './App.css';
 import reactLogo from './assets/react.svg';
-import Blog from './Blog';
+import Blog from './pages/Blog';
 import viteLogo from '/vite.svg';
 
 function App() {
@@ -30,7 +29,7 @@ function App() {
           />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1 className="text-red-800">Vite + React </h1>
       <Blog
         name="Alisher"
         isAge={true}
